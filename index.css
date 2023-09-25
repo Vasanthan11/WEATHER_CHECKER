@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://source.unsplash.com/1600x900/?landscape');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 2.5rem;
+            border-radius: 30px;
+            width: 100%;
+            max-width: 760px;
+            margin: 1.5rem;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        ::placeholder {
+            color: rgb(253, 253, 253);
+            opacity: 0.7;
+            font-size: 1.6rem;
+        }
+
+        .card .search {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        hr {
+            margin-bottom: 15px;
+        }
+
+        button {
+            margin: 0.7rem;
+            border-radius: 20px;
+            height: 3em;
+            padding: 5px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            box-shadow: rgb(58, 58, 58) 3px 3px 6px 0px inset, rgba(59, 59, 59, 0.5) -3px -3px 6px 1px inset;
+        }
+
+        input.search_bar {
+            border: none;
+            outline: none;
+            padding: 0.4em;
+            border-radius: 18px;
+            width: 60%;
+            font-size: 1.7rem;
+            background-color: rgba(255, 255, 255, 0.4);
+            color: rgb(255, 255, 255);
+        }
+
+        h2 {
+            display: block;
+            font-size: 3.2em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .temp {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        .description,
+        .humidity,
+        .wind {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        i {
+            font-size: 2.3rem;
+            margin-right: 20px;
+        }
+
+        .fa-droplet {
+            margin-right: 40px;
+        }
+
+        .fa-wind {
+            margin-right: 30px;
+        }
